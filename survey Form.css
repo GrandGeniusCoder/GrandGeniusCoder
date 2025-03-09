@@ -1,0 +1,82 @@
+body{
+    background-color: rgb(90, 106, 158);
+    font-family: poppins, sans-serif;
+    color: #fff;
+    font-size: 1.5rem;
+}
+
+form{
+    max-width: 700px;
+    background-color: rgb(11, 11, 75);
+    text-align: left;
+    padding: 20px;
+    border: 2px solid rgb(21, 21, 107);
+    border-radius: 1.5rem; 
+    margin: auto;
+}
+
+input,textarea,button,select{
+    padding: 5px;
+    border:none ;
+    border-radius:5px;
+    
+}
+
+
+input[type="email"]{
+    display: flex;
+    flex-direction: column;
+    width: 700px;
+    height: 40px;
+    margin-bottom: 20px;
+    margin-top: 10px;
+    font-size: 1.5rem;
+}
+input[type="number"]{
+    display: flex;
+    flex-direction: column;
+    width: 700px;
+    height: 40px;
+    margin-bottom: 20px;
+    margin-top: 10px;
+    font-size: 1.5rem;
+}
+#name{
+    display: flex;
+    flex-direction: column;
+    width: 700px;
+    height: 40px;
+    margin-bottom: 20px;
+    margin-top: 10px;
+    font-size: 1.5rem;
+}
+
+.textarea{
+    width: 670px;
+    height: 100px;
+    color: black;
+    font-size: 1rem;
+    margin-bottom: 20px;
+    margin-top: 10px;
+}
+#submit{
+    font-size: 1.5rem;
+    background-color: rgb(31, 117, 31);
+    color: rgb(235, 228, 228);
+    width: 700px;
+    height: 40px;
+    margin-bottom: 20px;
+    margin-top: 10px;
+}
+#dropdown{
+    width: 710px;
+    height: 50px;
+    margin-bottom: 20px;
+    margin-top: 10px;
+    font-size: 1rem;
+}
+#title,#description{
+    text-align: center;
+}
+
+    
